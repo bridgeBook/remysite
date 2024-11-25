@@ -15,7 +15,10 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mid">aaa</div>
+      <div className="mid">
+        <div>KANTA</div>
+        <div>HASHIMOTO</div>
+      </div>
       <div className="bot">aaa</div>
     </>
   );
