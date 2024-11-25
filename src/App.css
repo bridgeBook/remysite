@@ -18,12 +18,23 @@
 }
 .topMenu {
   display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.topMenu_right {
+  display: flex;
+  justify-content: flex-end;
+}
+.topHome {
 }
 .topMenu_about {
+  margin-left: 25px;
 }
 .topMenu_sample {
   margin-left: 25px;
 }
 .topMenu_contact {
   margin-left: 25px;
+  margin-right: 40px;
 }
