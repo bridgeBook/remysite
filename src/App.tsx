@@ -6,7 +6,7 @@ function App() {
       <div className="top">
         <div className="topMenu">
           <div className="topMenu_left">
-            <div className="topHome">◯</div>
+            <div className="topHome">○</div>
           </div>
           <div className="topMenu_right">
             <div className="topMenu_about">about</div>
@@ -16,8 +16,10 @@ function App() {
         </div>
       </div>
       <div className="mid">
-        <div>KANTA</div>
-        <div>HASHIMOTO</div>
+        <div className="midName">
+          <div>KANTA</div>
+          <div>HASHIMOTO</div>
+        </div>
       </div>
       <div className="bot">aaa</div>
     </>
