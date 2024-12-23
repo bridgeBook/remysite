@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  background-color: #fdfade;
+  color: #885902;
+}
+.mid {
+  background-color: #fdfade;
+  height: 768px;
+  font-size: 80px;
+  font-weight: 100;
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.midName {
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+}
