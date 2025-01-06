@@ -1,6 +1,14 @@
 import "./Top.css";
 
 function Top() {
+
+  const Scroll = () =>{
+    window.scroll({
+      top: 800,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <>
       <div className="top">
@@ -9,9 +17,9 @@ function Top() {
             <div className="topHome">○</div>
           </div>
           <div className="topMenu_right">
-            <div className="topMenu_about">about</div>
-            <div className="topMenu_sample">sample</div>
-            <div className="topMenu_contact">contact</div>
+            <a className="topMenu_about" onClick={Scroll}>about</a>
+            <a className="topMenu_sample">sample</a>
+            <a className="topMenu_contact">contact</a>
           </div>
         </div>
       </div>
