@@ -1,10 +1,11 @@
 import "./Bot.css";
+import Scroll from "../scroll.ts";
 
 function Bot() {
   return (
     <>
       <div className="bot">
-        <div>aaa</div>
+        <div className="home" onClick={() => Scroll(0)}>↑に戻る</div>
       </div>
     </>
   );
