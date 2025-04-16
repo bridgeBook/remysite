@@ -1,6 +1,6 @@
 import "./Top.css";
 import React, { useState } from 'react';
-import Scroll from "../scroll.ts";
+import Scroll from "../Scroll.ts";
 
 function Top() {
 

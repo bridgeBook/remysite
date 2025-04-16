@@ -1,20 +1,12 @@
 import "./Mid.css";
+import MainText from "./mainText.tsx";
+import NameText from "./nameText.tsx";
 
 function Mid() {
   return (
     <>
-      <div className="mid">
-        <div className="midName">
-          <div>KANTA</div>
-          <div>HASHIMOTO</div>
-        </div>
-      </div>
-      <div className="mid">
-        <div className="midName">
-          <div>KANTA</div>
-          <div>HASHIMOTO</div>
-        </div>
-      </div>
+      <NameText />
+      <MainText />
     </>
   );
 }

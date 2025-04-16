@@ -10,7 +10,7 @@
 }
 .mid {
   background-color: #fdfade;
-  height: 768px;
+  height: 850px;
   font-size: 80px;
   font-weight: 100;
   max-width: 300px;
@@ -22,4 +22,17 @@
   margin: auto;
   display: inline-block;
   text-align: left;
+}
+.midtext{
+  background-color: #fdfade;
+  height: 650px;
+  font-size: 80px;
+  font-weight: 100;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.text{
+  font-size: 28px;
+  line-height: 2em;
 }
