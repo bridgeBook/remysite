@@ -8,9 +8,10 @@
   background-color: #fdfade;
   color: #885902;
 }
+
 .mid {
   background-color: #fdfade;
-  height: 850px;
+  height: 100vh;
   font-size: 80px;
   font-weight: 100;
   max-width: 300px;
@@ -18,21 +19,108 @@
   display: flex;
   justify-content: center;
 }
+
 .midName {
   margin: auto;
   display: inline-block;
   text-align: left;
+  margin-top: 320px;
 }
-.midtext{
+
+.midtext {
   background-color: #fdfade;
-  height: 650px;
+  height: 100vh;
   font-size: 80px;
   font-weight: 100;
   margin: auto;
   display: flex;
   justify-content: center;
 }
-.text{
+
+.text {
   font-size: 28px;
   line-height: 2em;
+  text-align: center;
+  padding: 250px 0;
+}
+
+.midhistory {
+  background-color: #fdfade;
+  height: 95vh;
+  font-size: 80px;
+  font-weight: 100;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.history {
+  font-size: 28px;
+  line-height: 2em;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.dlBlock {
+  position: relative;
+}
+
+.dlBlock:before {
+  position: absolute;
+  display: block;
+  content: "";
+  background: #ccc;
+  width: 1px;
+  height: 91%;
+  margin-top: 15px;
+  margin-left: 96px;
+}
+
+.dlBlock .dlInner {
+  display: flex;
+  align-items: flex-start;
+}
+
+.dlBlock dt {
+  position: relative;
+  color: #1e801b;
+  line-height: 1;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.dlBlock dt:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: .5em;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  background: #1e801b;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.dlBlock dd {
+  line-height: 1.5;
+  flex: 1;
+}
+
+.ddInner {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 769px),
+print {
+
+  .dlBlock .dlInner {
+    padding-bottom: 40px;
+  }
+
+  .dlBlock dt {
+    width: 100px;
+    padding-right: 15px;
+    font-size: 26px;
+  }
 }

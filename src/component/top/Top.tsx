@@ -26,11 +26,11 @@ function Top() {
       <div className="top">
         <div className="topMenu">
           <div className="topMenu_left">
-            <div className="topHome" onClick={() => Scroll(0)}>○</div>
+            <div className="topHome" onClick={() => Scroll(0)}>home</div>
           </div>
           <div className="topMenu_right">
-            <a className="topMenu_about" onClick={() => Scroll(800)}>about</a>
-            <a className="topMenu_sample">sample</a>
+            <a className="topMenu_about" onClick={() => Scroll(1000)}>about</a>
+            <a className="topMenu_sample" onClick={() => Scroll(2000)}>history</a>
             <a className="topMenu_contact" onClick={() => { handleCopy() }}>contact</a>
           </div>
         </div>
