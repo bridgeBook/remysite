@@ -1,5 +1,5 @@
 import "./Bot.css";
-import Scroll from "../scroll.ts";
+import Scroll from "../Scroll.ts";
 
 function Bot() {
   return (
